@@ -17,7 +17,7 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 1.8
-      # 从release.json 读取相关信息
+      # 从release.json  读取相关信息
       - name: Read tag_main
         id: tag_main
         uses: ashley-taylor/read-json-property-action@v1.0
